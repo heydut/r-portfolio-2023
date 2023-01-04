@@ -1,0 +1,131 @@
+#hero-section {
+  position: relative;
+  .hero-section-background {
+    background-color: #101010;
+    border-radius: 0px 0px 150px 0px;
+
+    height: 650px;
+    width: 60%;
+    z-index: -50;
+    position: absolute;
+  }
+  #hero {
+    display: flex;
+    align-items: flex-end;
+    height: 650px;
+
+    .hero-header {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      color: #f1f1f1;
+      margin-bottom: 75px;
+      width: 40%;
+
+      .hero-header-text {
+        .hero-header-hello {
+          display: flex;
+          align-items: flex-end;
+          gap: 15px;
+
+          img {
+            height: 45px;
+          }
+        }
+        h1 {
+          font-size: 86px;
+          margin-bottom: -25px;
+        }
+
+        h2 {
+          font-size: 40px;
+          margin-bottom: 30px;
+
+          u {
+            color: #f75c76;
+            text-decoration: underline wavy 3px;
+            text-decoration-color: #f1f1f1;
+
+            &:hover span {
+              display: none;
+            }
+
+            &:hover:after {
+              color: #fdb913;
+              content: "Mayranne";
+            }
+          }
+        }
+
+        p {
+          line-height: 30px;
+        }
+      }
+
+      .hero-header-buttons {
+        display: flex;
+        gap: 20px;
+
+        button {
+          border: none;
+          border-radius: 25px;
+
+          transition: ease-out 0.7s;
+          padding: 8px 16px;
+
+          &:first-child {
+            background-color: #e43a56;
+            border: 1px solid #e43a56;
+            color: #f1f1f1;
+
+            &:hover {
+              background-color: #f75c76;
+              border: 1px solid #f75c76;
+            }
+          }
+
+          &:last-child {
+            background-color: transparent;
+            border: 1px solid #e43a56;
+            color: #e43a56;
+
+            &:hover {
+              background-color: #fdc2cc;
+              border: 1px solid #fdc2cc;
+              color: #dd2342;
+            }
+          }
+        }
+      }
+    }
+    .hero-blobs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 60%;
+      position: relative;
+
+      .hero-blobs-instagram {
+        position: relative;
+        img {
+          margin-top: 80px;
+          width: 450px;
+
+          &:first-child {
+            position: absolute;
+          }
+        }
+      }
+
+      .blob-one,
+      .blob-two,
+      .blob-three {
+        width: 650px;
+        position: absolute;
+        z-index: -49;
+      }
+    }
+  }
+}
