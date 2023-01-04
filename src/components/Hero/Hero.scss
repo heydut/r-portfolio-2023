@@ -5,23 +5,26 @@
     border-radius: 0px 0px 150px 0px;
 
     height: 650px;
-    width: 60%;
+    width: 50%;
     z-index: -50;
     position: absolute;
   }
   #hero {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     height: 650px;
 
     .hero-header {
       display: flex;
       flex-direction: column;
+      justify-content: flex-end;
       gap: 50px;
 
       color: #f1f1f1;
-      margin-bottom: 75px;
-      width: 40%;
+      padding-bottom: 75px;
+      height: 100%;
+      width: 50%;
 
       .hero-header-text {
         .hero-header-hello {
@@ -35,11 +38,13 @@
         }
         h1 {
           font-size: 86px;
-          margin-bottom: -25px;
+          margin-bottom: -15px;
+          margin-left: -5px;
         }
 
         h2 {
           font-size: 40px;
+          margin-top: 10px;
           margin-bottom: 30px;
 
           u {
@@ -104,8 +109,19 @@
       align-items: center;
       justify-content: center;
       height: 100%;
-      width: 60%;
+      width: 50%;
       position: relative;
+
+      .hero-blobs-background {
+        position: absolute;
+        background-color: #101010;
+        border-radius: 0px 0px 150px 0px;
+
+        z-index: -51;
+        left: -200px;
+        height: 100%;
+        width: 100%;
+      }
 
       .hero-blobs-instagram {
         position: relative;
@@ -125,6 +141,142 @@
         width: 650px;
         position: absolute;
         z-index: -49;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  #hero-section {
+    .hero-section-background {
+      height: 550px;
+      width: 80%;
+    }
+    #hero {
+      height: 550px;
+
+      .hero-header {
+        margin-bottom: 45px;
+
+        .hero-header-text {
+          .hero-header-hello {
+            img {
+              height: 35px;
+            }
+          }
+          h1 {
+            font-size: 72px;
+          }
+          h2 {
+            font-size: 34px;
+          }
+        }
+      }
+      .hero-blobs {
+        .hero-blobs-instagram {
+          img {
+            width: 350px;
+          }
+        }
+        .blob-one,
+        .blob-two,
+        .blob-three {
+          width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #hero-section {
+    #hero {
+      .hero-header {
+        width: 50%;
+        .hero-header-text {
+          h1 {
+            font-size: 62px;
+            margin-bottom: -20px;
+          }
+          h2 {
+            font-size: 30px;
+          }
+        }
+      }
+      .hero-blobs {
+        width: 40%;
+
+        .blob-one,
+        .blob-two,
+        .blob-three {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #hero-section {
+    .hero-section-background {
+      height: 500px;
+    }
+    #hero {
+      height: 500px;
+
+      .hero-blobs {
+        width: 40%;
+
+        .hero-blobs-instagram {
+          img {
+            width: 300px;
+          }
+        }
+
+        .blob-one,
+        .blob-two,
+        .blob-three {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #hero-section {
+    .hero-section-background {
+      border-radius: 0px 0px 125px 0px;
+      height: 400px;
+      width: 95%;
+    }
+    #hero {
+      height: 400px;
+
+      .hero-header {
+        width: 90%;
+
+        .hero-header-text {
+          .hero-header-hello {
+            img {
+              height: 35px;
+            }
+          }
+          h1 {
+            font-size: 60px;
+          }
+
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            line-height: 30px;
+          }
+        }
+      }
+      .hero-blobs {
+        display: none;
       }
     }
   }

@@ -53,6 +53,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <div id="navbar-mobile">
+          <i className="fa-solid fa-bars" />
+        </div>
       </div>
     </section>
   );

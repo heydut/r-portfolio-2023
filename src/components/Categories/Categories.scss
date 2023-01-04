@@ -1,0 +1,36 @@
+#categories-section {
+  .categories {
+    .categories-header {
+      h1 {
+        font-size: 58px;
+        text-align: center;
+
+        margin: 25px 0px;
+      }
+    }
+
+    .categories-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+
+      padding: 25px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #categories-section {
+    .categories {
+      .categories-header {
+      }
+
+      .categories-list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+    }
+  }
+}

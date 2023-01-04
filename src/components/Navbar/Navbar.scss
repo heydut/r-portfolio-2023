@@ -4,6 +4,10 @@
   box-shadow: rgba(149, 157, 165, 0.1) 0px 0px 12px;
 }
 
+#navbar-mobile {
+  display: none;
+}
+
 #navbar-section {
   background-color: transparent;
 
@@ -54,6 +58,22 @@
         font-weight: 600;
         padding: 8px 16px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #navbar-section {
+    #navbar {
+      display: none;
+    }
+    #navbar-mobile {
+      display: block;
+      color: #f1f1f1;
+      font-size: 30px;
+      text-align: right;
+      margin-top: 15px;
+      margin-right: 5%;
     }
   }
 }

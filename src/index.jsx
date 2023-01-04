@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////
 
 // Design
-import "./index.css";
+import "./index.scss";
 // Libraries
 import React from "react";
 import ReactDOM from "react-dom/client";
