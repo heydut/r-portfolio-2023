@@ -1,0 +1,132 @@
+#frontend-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+
+  font-size: 14px;
+  width: 300px;
+  padding: 10px 10px;
+  transition: 500ms ease-in-out;
+  padding-bottom: 10px;
+
+  img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 125px;
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 22px;
+    letter-spacing: -1px;
+  }
+
+  .frontend-cards-description {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    line-height: 20px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .frontend-cards-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  span {
+    display: none;
+  }
+
+  &:hover {
+    background-color: #e43a56;
+    box-shadow: 0 0 10px rgba(16, 16, 16, 0.2);
+    border-radius: 15px 15px 0px 0px;
+    gap: 15px;
+
+    img {
+      border-radius: 10px 10px 0px 0px;
+      height: 150px;
+      width: 100%;
+    }
+
+    .frontend-cards-description {
+      display: block;
+
+      line-height: 20px;
+      width: 100%;
+    }
+
+    .frontend-cards-more {
+      display: none;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        background-color: #f5f5f5;
+        border-radius: 50px;
+        color: #e43a56;
+
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0px 14px;
+
+        p {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #frontend-cards {
+    &:hover {
+      span {
+        a {
+          gap: 4px;
+
+          font-size: 10px;
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #frontend-cards:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #frontend-cards {
+    &:hover {
+      span {
+        a {
+          gap: 10px;
+          font-size: 12px;
+          padding: 0px 14px;
+        }
+      }
+    }
+  }
+}

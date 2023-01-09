@@ -1,8 +1,10 @@
 // Design
 import "./CategoriesCards.scss";
-import example from "../../assets/Glitter.png";
+import "./CategoriesCardsGrids.scss";
 // Libraries
+import { useState } from "react";
 // Components
+
 //////////////////////////////////////////////////////////////
 
 const CategoriesCards = (props) => {
@@ -12,7 +14,7 @@ const CategoriesCards = (props) => {
       style={{
         backgroundColor: `${props.data.color}`,
       }}
-      className={`grid${props.data.id}`}
+      className={`grid${props.data.id} `}
     >
       <div className="categories-cards-normal">
         <div

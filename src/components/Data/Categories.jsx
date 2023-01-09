@@ -7,9 +7,9 @@ const categories = [
         alt="tech"
       />
     ),
-    title: " 111 Frontend Projects",
+    title: " 1 About Me",
     description: "Hi lorem lorena! Hi lorem lorena!",
-    color: "#c50e2d",
+    color: "#101010",
   },
   {
     id: "2",
@@ -19,9 +19,9 @@ const categories = [
         alt="tech"
       />
     ),
-    title: "222 About Me",
+    title: "2 Frontend Projects",
     description: "Hi lorem lorena! Hi lorem lorena!",
-    color: "#ee7300",
+    color: "#101010",
   },
   {
     id: "3",
@@ -31,9 +31,9 @@ const categories = [
         alt="tech"
       />
     ),
-    title: "333 About Me",
+    title: "3 UI Design",
     description: "Hi lorem lorena! Hi lorem lorena!",
-    color: "#882cd8",
+    color: "#101010",
   },
   {
     id: "4",
@@ -43,21 +43,9 @@ const categories = [
         alt="tech"
       />
     ),
-    title: "444 Let's talk",
+    title: "4 Let's talk",
     description: "Hi lorem lorena! Hi lorem lorena!",
     color: "#101010",
-  },
-  {
-    id: "5",
-    image: (
-      <img
-        src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
-        alt="tech"
-      />
-    ),
-    title: "555 UI Design",
-    description: "Hi lorem lor.,ena! Hi lorem lorena!",
-    color: "#2e86f8",
   },
 ];
 

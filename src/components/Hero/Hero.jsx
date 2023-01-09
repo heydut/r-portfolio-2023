@@ -41,6 +41,7 @@ const Hero = () => {
           </div>
           <div className="hero-blobs">
             <div className="hero-blobs-background"></div>
+            <div className="hero-blobs-background-white"></div>
             <div className="hero-blobs-instagram">
               <img src={InstagramHand} alt="InstagramHand" />
               <img src={InstagramGif} alt="InstagramGif" />

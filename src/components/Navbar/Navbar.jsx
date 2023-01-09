@@ -49,7 +49,14 @@ const Navbar = () => {
           </div>
           <div className="navbar-cv">
             <ul>
-              <li>Download CV</li>
+              <li>
+                <a
+                  href="../../../public/assets/Professional CV Resume - Mayranne Nascimento.pdf"
+                  download
+                >
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>

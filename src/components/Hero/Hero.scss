@@ -123,6 +123,19 @@
         width: 100%;
       }
 
+      .hero-blobs-background-white {
+        position: absolute;
+        background-color: rgba(16, 16, 16, 0.1);
+        border-radius: 0px 0px 0px 150px;
+
+        left: 120px;
+        top: -50px;
+        z-index: -50;
+
+        height: 100%;
+        width: 3000px;
+      }
+
       .hero-blobs-instagram {
         position: relative;
         img {
