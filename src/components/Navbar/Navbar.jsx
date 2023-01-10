@@ -29,13 +29,12 @@ const Navbar = () => {
     >
       <div className="container">
         <div id="navbar">
-          <div>
-            <img
-              src={scrollPosition === 0 ? dutLogoWhite : dutLogo}
-              alt="dut-logo"
-              className="navbar-logo"
-            />
-          </div>
+          <img
+            src={scrollPosition === 0 ? dutLogoWhite : dutLogo}
+            alt="dut-logo"
+            className="navbar-logo"
+          />
+
           <div
             className={` ${
               scrollPosition === 0 ? "navbar-links" : "navbar-links-sticky"

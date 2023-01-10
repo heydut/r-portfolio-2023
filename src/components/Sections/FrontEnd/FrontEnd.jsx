@@ -9,7 +9,7 @@ import FrontEndCards from "../../FrontEndCards/FrontEndCards";
 
 const FrontEnd = () => {
   // function to get screen width
-  const [screenWidth, setScreenWidth] = useState();
+  const [screenWidth, setScreenWidth] = useState(5000);
   const handleScreenWidth = () => {
     setScreenWidth(window.innerWidth);
   };
@@ -20,6 +20,8 @@ const FrontEnd = () => {
       window.removeEventListener("resize", handleScreenWidth);
     };
   }, [screenWidth]);
+
+  console.log(screenWidth);
 
   return (
     <section id="frontend-section">

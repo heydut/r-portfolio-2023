@@ -1,3 +1,5 @@
+import canva from "../../assets/canva.png";
+
 const tech = [
   {
     id: "1",
@@ -32,6 +34,42 @@ const tech = [
     ),
     title: "Sass",
   },
+
+  {
+    id: "9",
+    icon: (
+      <img
+        src="https://skillicons.dev/icons?i=figma&theme=light"
+        alt="tech"
+        className="tech-img"
+      />
+    ),
+    title: "Figma",
+  },
+
+  {
+    id: "8",
+    icon: (
+      <img
+        src={canva}
+        alt="tech"
+        className="tech-img"
+        style={{ borderRadius: "15px" }}
+      />
+    ),
+    title: "Canva",
+  },
+  {
+    id: "7",
+    icon: (
+      <img
+        src="https://skillicons.dev/icons?i=photoshop&theme=light"
+        alt="tech"
+        className="tech-img"
+      />
+    ),
+    title: "Photoshop",
+  },
   {
     id: "3",
     icon: (
@@ -54,62 +92,7 @@ const tech = [
     ),
     title: "React",
   },
-  {
-    id: "5",
-    icon: (
-      <img
-        src="https://skillicons.dev/icons?i=nodejs&theme=light"
-        alt="tech"
-        className="tech-img"
-      />
-    ),
-    title: "Node.js",
-  },
-  {
-    id: "6",
-    icon: (
-      <img
-        src="https://skillicons.dev/icons?i=mongodb&theme=light"
-        alt="tech"
-        className="tech-img"
-      />
-    ),
-    title: "MongoDB",
-  },
-  {
-    id: "7",
-    icon: (
-      <img
-        src="https://skillicons.dev/icons?i=photoshop&theme=light"
-        alt="tech"
-        className="tech-img"
-      />
-    ),
-    title: "Photoshop",
-  },
-  {
-    id: "8",
-    icon: (
-      <img
-        src={canva}
-        alt="tech"
-        className="tech-img"
-        style={{ borderRadius: "15px" }}
-      />
-    ),
-    title: "Canva",
-  },
-  {
-    id: "9",
-    icon: (
-      <img
-        src="https://skillicons.dev/icons?i=figma&theme=light"
-        alt="tech"
-        className="tech-img"
-      />
-    ),
-    title: "Figma",
-  },
+
   {
     id: "10",
     icon: (
@@ -142,6 +125,28 @@ const tech = [
       />
     ),
     title: "Github",
+  },
+  {
+    id: "5",
+    icon: (
+      <img
+        src="https://skillicons.dev/icons?i=nodejs&theme=light"
+        alt="tech"
+        className="tech-img"
+      />
+    ),
+    title: "Node.js",
+  },
+  {
+    id: "6",
+    icon: (
+      <img
+        src="https://skillicons.dev/icons?i=mongodb&theme=light"
+        alt="tech"
+        className="tech-img"
+      />
+    ),
+    title: "MongoDB",
   },
 ];
 

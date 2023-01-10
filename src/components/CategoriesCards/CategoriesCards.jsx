@@ -16,23 +16,25 @@ const CategoriesCards = (props) => {
       }}
       className={`grid${props.data.id} `}
     >
-      <div className="categories-cards-normal">
-        <div
-          className="categ-cards-gradient"
-          style={{
-            backgroundImage: `linear-gradient(to top, ${props.data.color}, rgba(0, 0, 0, 0))`,
-          }}
-        />
+      <a href={`#section-${props.data.section}`}>
+        <div className="categories-cards-normal">
+          <div
+            className="categ-cards-gradient"
+            style={{
+              backgroundImage: `linear-gradient(to top, ${props.data.color}, rgba(0, 0, 0, 0))`,
+            }}
+          />
 
-        <div className="categ-cards">
-          <div className="categ-cards-content">
-            <h1>{props.data.title}</h1>
-            <p>{props.data.description}</p>
+          <div className="categ-cards">
+            <div className="categ-cards-content">
+              <h1>{props.data.title}</h1>
+              <p>{props.data.description}</p>
+            </div>
+            <div className="categ-cards-background">{props.data.image}</div>
           </div>
-          <div className="categ-cards-background">{props.data.image}</div>
         </div>
-      </div>
-      <div className="categories-cards-hover"></div>
+        <div className="categories-cards-hover"></div>
+      </a>
     </section>
   );
 };

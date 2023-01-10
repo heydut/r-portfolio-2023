@@ -1,6 +1,9 @@
+import AboutMe from "../Sections/AboutMe/AboutMe";
+
 const categories = [
   {
-    id: "1",
+    id: 1,
+    section: "aboutme",
     image: (
       <img
         src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
@@ -12,7 +15,8 @@ const categories = [
     color: "#101010",
   },
   {
-    id: "2",
+    id: 2,
+    section: "frontend",
     image: (
       <img
         src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
@@ -24,7 +28,8 @@ const categories = [
     color: "#101010",
   },
   {
-    id: "3",
+    id: 3,
+    section: "uidesign",
     image: (
       <img
         src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
@@ -36,7 +41,8 @@ const categories = [
     color: "#101010",
   },
   {
-    id: "4",
+    id: 4,
+    section: "contact",
     image: (
       <img
         src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"

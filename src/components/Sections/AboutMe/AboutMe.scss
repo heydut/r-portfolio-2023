@@ -1,0 +1,87 @@
+#aboutme-section {
+  .aboutme {
+    .aboutme-body {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 25px;
+      grid-row-gap: 0px;
+
+      .aboutme-rightside {
+        .aboutme-header {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          background-color: #101010;
+          border-radius: 15px;
+          color: #f1f1f1;
+
+          margin-bottom: 20px;
+          padding: 6px 18px;
+
+          i {
+            font-size: 24px;
+          }
+
+          h2 {
+            letter-spacing: -1px;
+          }
+        }
+      }
+
+      .aboutme-techicons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        .aboutme-techicons-ui,
+        .aboutme-techicons-js,
+        .aboutme-techicons-git {
+          display: flex;
+          gap: 20px;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          p {
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: -1px;
+          }
+
+          img {
+          }
+        }
+      }
+
+      .aboutme-leftside {
+        .memojihi {
+          margin-top: 0px;
+          height: 300px;
+          float: left;
+          shape-outside: url(../../../assets/memoji-hi.png);
+          shape-margin: 10px;
+        }
+
+        p {
+          font-weight: 500;
+        }
+      }
+    }
+
+    // Grids ****
+
+    .aboutme-leftside {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    .aboutme-rightside {
+      grid-area: 1 / 2 / 2 / 3;
+    }
+  }
+}

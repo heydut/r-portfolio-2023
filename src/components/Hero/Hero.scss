@@ -1,19 +1,13 @@
 #hero-section {
   position: relative;
-  .hero-section-background {
-    background-color: #101010;
-    border-radius: 0px 0px 150px 0px;
+  background-color: #101010;
+  overflow: hidden;
 
-    height: 650px;
-    width: 50%;
-    z-index: -50;
-    position: absolute;
-  }
   #hero {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    height: 650px;
+    height: 500px;
 
     .hero-header {
       display: flex;
@@ -22,9 +16,10 @@
       gap: 50px;
 
       color: #f1f1f1;
-      padding-bottom: 75px;
+      padding-bottom: 50px;
       height: 100%;
       width: 50%;
+      z-index: 10;
 
       .hero-header-text {
         .hero-header-hello {
@@ -106,54 +101,25 @@
     }
     .hero-blobs {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: center;
       height: 100%;
       width: 50%;
       position: relative;
 
-      .hero-blobs-background {
-        position: absolute;
-        background-color: #101010;
-        border-radius: 0px 0px 150px 0px;
-
-        z-index: -51;
-        left: -200px;
-        height: 100%;
-        width: 100%;
-      }
-
-      .hero-blobs-background-white {
-        position: absolute;
-        background-color: rgba(16, 16, 16, 0.1);
-        border-radius: 0px 0px 0px 150px;
-
-        left: 120px;
-        top: -50px;
-        z-index: -50;
-
-        height: 100%;
-        width: 3000px;
-      }
-
       .hero-blobs-instagram {
-        position: relative;
-        img {
-          margin-top: 80px;
-          width: 450px;
-
-          &:first-child {
-            position: absolute;
-          }
-        }
+        z-index: 8;
+        height: 420px;
+        width: 420px;
       }
 
       .blob-one,
       .blob-two,
       .blob-three {
-        width: 650px;
+        top: 75px;
+        width: 600px;
         position: absolute;
-        z-index: -49;
+        z-index: 1;
       }
     }
   }

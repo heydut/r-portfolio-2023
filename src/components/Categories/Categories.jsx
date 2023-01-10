@@ -37,11 +37,18 @@ const Categories = () => {
               );
             })}
           </div>
-
-          <AboutMe />
-          <FrontEnd />
-          <UIDesign />
-          <Contact />
+          <div id="section-aboutme">
+            <AboutMe />
+          </div>
+          <div id="section-frontend">
+            <FrontEnd />
+          </div>
+          <div id="section-uidesign">
+            <UIDesign />
+          </div>
+          <div id="section-contact">
+            <Contact />
+          </div>
         </div>
       </div>
     </section>

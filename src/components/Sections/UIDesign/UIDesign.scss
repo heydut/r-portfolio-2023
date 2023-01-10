@@ -1,0 +1,30 @@
+#uidesign-section {
+  .uidesign {
+    .uidesign-slide1,
+    .uidesign-slide2 {
+      .uidesign-slide-body {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        &:last-child {
+          margin-left: 40px;
+        }
+
+        img {
+          border-radius: 15px;
+          object-fit: cover;
+          height: 250px;
+          width: 350px;
+        }
+      }
+    }
+
+    .uidesign-slide1 {
+      margin-bottom: 35px;
+    }
+
+    .uidesign-slide2 {
+    }
+  }
+}
