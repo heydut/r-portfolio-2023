@@ -1,5 +1,10 @@
 #frontend-section {
   .frontend {
+    .categories-header {
+      h1 {
+        color: #a30028;
+      }
+    }
     .frontend-body {
       display: flex;
       justify-content: space-around;

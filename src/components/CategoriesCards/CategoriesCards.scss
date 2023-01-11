@@ -5,10 +5,20 @@
   transition: ease-in 0.2s;
   position: relative;
 
+  background-color: #101010;
+
   &:hover {
     box-shadow: 0 0 10px rgba(16, 16, 16, 0.2);
     scale: 1.08;
     z-index: 2;
+
+    a {
+      .categories-cards-normal {
+        .categ-cards-gradient {
+          background-image: linear-gradient(to top, #a30028, rgba(0, 0, 0, 0));
+        }
+      }
+    }
   }
 
   .categories-cards-normal {
@@ -16,6 +26,7 @@
     height: 100%;
 
     .categ-cards-gradient {
+      background-image: linear-gradient(to top, #101010, rgba(0, 0, 0, 0));
       height: 100%;
       width: 100%;
       position: absolute;

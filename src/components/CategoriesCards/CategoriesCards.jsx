@@ -9,21 +9,10 @@ import { useState } from "react";
 
 const CategoriesCards = (props) => {
   return (
-    <section
-      id="categ-cards-section"
-      style={{
-        backgroundColor: `${props.data.color}`,
-      }}
-      className={`grid${props.data.id} `}
-    >
+    <section id="categ-cards-section" className={`grid${props.data.id} `}>
       <a href={`#section-${props.data.section}`}>
         <div className="categories-cards-normal">
-          <div
-            className="categ-cards-gradient"
-            style={{
-              backgroundImage: `linear-gradient(to top, ${props.data.color}, rgba(0, 0, 0, 0))`,
-            }}
-          />
+          <div className="categ-cards-gradient" />
 
           <div className="categ-cards">
             <div className="categ-cards-content">

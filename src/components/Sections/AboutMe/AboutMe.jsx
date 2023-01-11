@@ -1,6 +1,6 @@
 // Design
 import "./AboutMe.scss";
-import memojihi from "../../../assets/memoji-hi.png";
+import memojihi from "../../../assets/memoji-love.png";
 // Libraries
 import { useState } from "react";
 // Components
@@ -34,9 +34,13 @@ const AboutMe = () => {
           <h1>About Me</h1>
         </div>
         <div className="aboutme-body">
-          <div>
+          <div className="aboutme-rightside-main">
             {" "}
-            <div className="aboutme-rightside" onClick={handleOpenTech}>
+            <div
+              className="aboutme-rightside"
+              onClick={handleOpenTech}
+              onDoubleClick={() => setOpenTech(false)}
+            >
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${openTech ? "down" : "right"}`}
@@ -45,18 +49,8 @@ const AboutMe = () => {
               </div>
               {openTech && (
                 <div className="aboutme-techicons">
-                  <div className="aboutme-techicons-ui">
-                    {tech.slice(0, 6).map((data) => {
-                      return (
-                        <div key={data.id}>
-                          {data.icon}
-                          {/* <p>{data.title}</p> */}
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <div className="aboutme-techicons-js">
-                    {tech.slice(6, 11).map((data) => {
+                  <div className="aboutme-techicons-row">
+                    {tech.slice(0, 11).map((data) => {
                       return (
                         <div key={data.id}>
                           {data.icon}
@@ -68,7 +62,11 @@ const AboutMe = () => {
                 </div>
               )}
             </div>
-            <div className="aboutme-rightside" onClick={handleOpenEducation}>
+            <div
+              className="aboutme-rightside"
+              onClick={handleOpenEducation}
+              onDoubleClick={() => setOpenEducation(false)}
+            >
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${
@@ -77,8 +75,49 @@ const AboutMe = () => {
                 />
                 <h2>Education</h2>
               </div>
+
+              {openEducation && (
+                <div className="aboutme-education">
+                  <div className="aboutme-education-course">
+                    <div className="education-year">2022 • 2022</div>
+                    <div className="education-line">
+                      <i className="fa-solid fa-star" />
+                      <div className="line"></div>
+                    </div>
+                    <div className="education-info-box">
+                      <h3>Master: Software</h3>
+                      <p>CodeNation Skills Bootcamp</p>
+
+                      <p>
+                        In the course I learned skills and knowledge needed to
+                        begin my career as a Junior Developer,
+                      </p>
+                    </div>
+                  </div>
+                  <div className="aboutme-education-course">
+                    <div className="education-year">2012 • 2017</div>
+                    <div className="education-line">
+                      <i className="fa-solid fa-star" />
+                      <div className="line"></div>
+                    </div>
+                    <div className="education-info-box">
+                      <h3>Law Bachelor</h3>
+                      <p>PUC Minas</p>
+
+                      <p>
+                        Bachelor in law with a specialization in consumer law,
+                        graduated from a Brazilian university.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
-            <div className="aboutme-rightside" onClick={handleOpenSkills}>
+            <div
+              className="aboutme-rightside"
+              onClick={handleOpenSkills}
+              onDoubleClick={() => setOpenSkills(false)}
+            >
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${
@@ -93,13 +132,17 @@ const AboutMe = () => {
           <div className="aboutme-leftside">
             <img src={memojihi} alt="memoji" className="memojihi" />
             <p>
-              I'm a graphic designer and soon I'll be a junior software
-              developer! I'm currently doing the Bootcamp Master Software on
-              CodeNation and my objective is to work with web design as a
-              front-end developer. I love researching design trends, inspiration
-              for future projects and lots of ideas to keep improving my skills.
-              I am now looking for an opportunity where I can continue to learn,
-              grow and demonstrate the value I can bring to your organization.
+              &nbsp;&nbsp;I'm a graphic designer and soon I'll be a junior
+              software developer! I'm currently doing the Bootcamp Master
+              Software on CodeNation and my objective is to work with web design
+              as a front-end developer. <br />
+              <br /> &nbsp;&nbsp;And I love researching design trends,
+              inspiration for future projects and lots of ideas to keep
+              improving my skills. <br />
+              <br />
+              &nbsp;&nbsp;I am now looking for an opportunity where I can
+              continue to learn, grow and demonstrate the value I can bring to
+              your organization.
             </p>
           </div>
         </div>
