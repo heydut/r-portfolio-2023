@@ -146,7 +146,7 @@
 
       .aboutme-leftside {
         .memojihi {
-          margin-top: 0px;
+          margin-top: 20px;
           height: 375px;
           float: right;
           shape-outside: url(../../../assets/memoji-love.png);
@@ -163,15 +163,6 @@
           font-weight: 500;
         }
       }
-    }
-
-    // Grids ****
-
-    .aboutme-leftside {
-      grid-area: 1 / 1 / 2 / 2;
-    }
-    .aboutme-rightside {
-      grid-area: 1 / 2 / 2 / 3;
     }
   }
 }
