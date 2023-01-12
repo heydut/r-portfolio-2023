@@ -12,19 +12,37 @@ const AboutMe = () => {
   const [openEducation, setOpenEducation] = useState(false);
   const [openSkills, setOpenSkills] = useState(false);
   const handleOpenTech = () => {
-    setOpenTech(true);
-    setOpenEducation(false);
-    setOpenSkills(false);
+    if (openTech === false) {
+      setOpenTech(true);
+      setOpenEducation(false);
+      setOpenSkills(false);
+    } else {
+      setOpenTech(false);
+      setOpenEducation(false);
+      setOpenSkills(false);
+    }
   };
   const handleOpenEducation = () => {
-    setOpenTech(false);
-    setOpenEducation(true);
-    setOpenSkills(false);
+    if (openEducation === false) {
+      setOpenTech(false);
+      setOpenEducation(true);
+      setOpenSkills(false);
+    } else {
+      setOpenTech(false);
+      setOpenEducation(false);
+      setOpenSkills(false);
+    }
   };
   const handleOpenSkills = () => {
-    setOpenTech(false);
-    setOpenEducation(false);
-    setOpenSkills(true);
+    if (openSkills === false) {
+      setOpenTech(false);
+      setOpenEducation(false);
+      setOpenSkills(true);
+    } else {
+      setOpenTech(false);
+      setOpenEducation(false);
+      setOpenSkills(false);
+    }
   };
 
   return (
@@ -36,11 +54,7 @@ const AboutMe = () => {
         <div className="aboutme-body">
           <div className="aboutme-rightside-main">
             {" "}
-            <div
-              className="aboutme-rightside"
-              onClick={handleOpenTech}
-              onDoubleClick={() => setOpenTech(false)}
-            >
+            <div className="aboutme-rightside" onClick={handleOpenTech}>
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${openTech ? "down" : "right"}`}
@@ -62,11 +76,7 @@ const AboutMe = () => {
                 </div>
               )}
             </div>
-            <div
-              className="aboutme-rightside"
-              onClick={handleOpenEducation}
-              onDoubleClick={() => setOpenEducation(false)}
-            >
+            <div className="aboutme-rightside" onClick={handleOpenEducation}>
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${
@@ -113,11 +123,7 @@ const AboutMe = () => {
                 </div>
               )}
             </div>
-            <div
-              className="aboutme-rightside"
-              onClick={handleOpenSkills}
-              onDoubleClick={() => setOpenSkills(false)}
-            >
+            <div className="aboutme-rightside" onClick={handleOpenSkills}>
               <div className="aboutme-header">
                 <i
                   className={`fa-solid fa-caret-${
