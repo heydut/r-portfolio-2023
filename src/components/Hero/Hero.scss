@@ -127,15 +127,11 @@
 
 @media screen and (max-width: 1320px) {
   #hero-section {
-    .hero-section-background {
-      height: 550px;
-      width: 80%;
-    }
     #hero {
       height: 550px;
 
       .hero-header {
-        margin-bottom: 45px;
+        margin-bottom: 0px;
 
         .hero-header-text {
           .hero-header-hello {
@@ -233,25 +229,33 @@
       height: 400px;
 
       .hero-header {
-        width: 90%;
+        gap: 25px;
+        width: 100%;
+        padding-bottom: 25px;
 
         .hero-header-text {
           .hero-header-hello {
+            justify-content: center;
             img {
               height: 35px;
             }
           }
           h1 {
-            font-size: 60px;
+            font-size: 54px;
           }
 
           h2 {
-            font-size: 24px;
+            font-size: 30px;
+            text-align: center;
           }
 
           p {
+            text-align: center;
             line-height: 30px;
           }
+        }
+        .hero-header-buttons {
+          justify-content: center;
         }
       }
       .hero-blobs {
