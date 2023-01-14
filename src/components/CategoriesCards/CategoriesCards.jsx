@@ -1,5 +1,6 @@
 // Design
 import "./CategoriesCards.scss";
+import "./CategoriesCardsGrids.scss";
 // Libraries
 import { useState } from "react";
 // Components
