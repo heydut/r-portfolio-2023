@@ -20,7 +20,7 @@ const FrontEndCards = (props) => {
           <i className="fa-solid fa-computer" />
           <p>Live Project</p>
         </a>
-        <a href={`${props.data.github}`} target="_blank">
+        <a href={`${props.data.live}`} target="_blank">
           <i className="fa-solid fa-code" />
           <p>Github Link</p>
         </a>

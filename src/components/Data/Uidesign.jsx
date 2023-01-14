@@ -1,8 +1,9 @@
+import one from "../../assets/Screenshot_7.png";
+
 const uidesign = [
   {
     id: "1",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
+    image: one,
 
     title: "1 UIDesign",
     description:

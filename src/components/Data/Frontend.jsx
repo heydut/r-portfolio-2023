@@ -4,12 +4,12 @@ const frontend = [
     image:
       "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
 
-    title: "1 NeighbourWho?",
+    title: "NeighbourWho?",
     description:
       "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
     color: "#101010",
-    github: "git-link",
-    live: "link",
+    github: "https://github.com/RaeesaParker/neighbourhood-front",
+    live: "https://neighbourwho.netlify.app/",
   },
   {
     id: "2",

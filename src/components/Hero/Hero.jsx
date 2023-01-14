@@ -28,9 +28,10 @@ const Hero = () => {
               </h2>
               <div>
                 <p>
-                  I'm a graphic designer, I recently finished a three month
-                  bootcamp in software development and now I'm looking for an
-                  opportunity be a junior frontend developer.{" "}
+                  I'm a graphic designer and I create cool things! I recently
+                  finished a three month bootcamp in software development and
+                  now I'm looking for an opportunity be a junior frontend
+                  developer.
                 </p>
               </div>
             </div>
