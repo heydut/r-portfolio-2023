@@ -21,16 +21,17 @@ const Contact = () => {
             <img src={memoji} alt="memoji" />
           </div>
           <form
-            className="categories-body-right"
-            data-netlify="true"
             name="contact"
             method="POST"
+            data-netlify="true"
+            className="categories-body-right"
           >
             <div>
-              <input type="text" placeholder="Your name"></input>
-              <input type="text" placeholder="Your email"></input>
+              <input type="text" placeholder="Your name" name="name"></input>
+              <input type="text" placeholder="Your email" name="email"></input>
             </div>
             <textarea
+              name="message"
               type="text"
               placeholder="Write your message here..."
               className="categories-body-message"

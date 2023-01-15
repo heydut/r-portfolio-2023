@@ -127,6 +127,7 @@
 
         button {
           background-color: #640000;
+          border: none;
           border-radius: 10px;
           cursor: pointer;
 
@@ -137,6 +138,10 @@
           padding: 15px;
           height: 49px;
           width: 60%;
+
+          &:focus {
+            outline: none;
+          }
         }
 
         .categories-body-message {
