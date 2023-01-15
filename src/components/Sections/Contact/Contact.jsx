@@ -2,7 +2,6 @@
 import "./Contact.scss";
 import memoji from "../../../assets/memoji-star.png";
 // Libraries
-import { NetlifyForm, Honeypot } from "react-netlify-forms";
 // Components
 //////////////////////////////////////////////////////////////
 
