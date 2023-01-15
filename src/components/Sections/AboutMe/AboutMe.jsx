@@ -139,7 +139,14 @@ const AboutMe = () => {
                     {skills.map((data) => {
                       return (
                         <div key={data.id}>
-                          <p>{data.title}</p>
+                          <p
+                            style={{
+                              backgroundColor: `${data.color}`,
+                              color: `${data.textColor}`,
+                            }}
+                          >
+                            {data.title}
+                          </p>
                         </div>
                       );
                     })}
