@@ -24,6 +24,7 @@ const Contact = () => {
             name="contact"
             method="POST"
             data-netlify="true"
+            action="/"
             className="categories-body-right"
           >
             <div>

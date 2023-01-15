@@ -19,6 +19,18 @@ const skills = [
     id: "5",
     title: "Creative",
   },
+  {
+    id: "6",
+    title: "Creative",
+  },
+  {
+    id: "7",
+    title: "Creative",
+  },
+  {
+    id: "8",
+    title: "Creative",
+  },
 ];
 
 export default skills;

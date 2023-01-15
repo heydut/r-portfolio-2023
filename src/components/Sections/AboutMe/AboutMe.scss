@@ -143,13 +143,17 @@
           }
           .aboutme-skillstags {
             .aboutme-skillstags-list {
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: space-between;
-              gap: 20px;
+              display: grid;
+              grid-auto-flow: row;
+              grid-gap: 15px;
+              gap: 10px;
+
+              margin: 25px 0px 5px 0px;
 
               p {
+                border-radius: 15px;
                 font-weight: 700;
+                padding: 2px 14px;
               }
             }
           }
