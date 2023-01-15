@@ -111,8 +111,14 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   #frontend-cards:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #frontend-cards:nth-child(3) {
     display: none;
   }
 }
