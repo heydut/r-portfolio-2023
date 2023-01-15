@@ -20,17 +20,24 @@ const Contact = () => {
             <i class="fa-brands fa-whatsapp" />
             <img src={memoji} alt="memoji" />
           </div>
-          <form className="categories-body-right">
+          <form
+            className="categories-body-right"
+            data-netlify="true"
+            name="contact"
+            method="POST"
+          >
             <div>
               <input type="text" placeholder="Your name"></input>
               <input type="text" placeholder="Your email"></input>
             </div>
-            <input
+            <textarea
               type="text"
               placeholder="Write your message here..."
               className="categories-body-message"
-            ></input>
-            <input type="submit" value="Submit" />
+            ></textarea>
+            <button type="submit" value="Submit">
+              Submit
+            </button>
           </form>
         </div>
       </div>
