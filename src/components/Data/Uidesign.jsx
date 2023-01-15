@@ -1,84 +1,44 @@
-import one from "../../assets/Screenshot_7.png";
+import one from "../../assets/uidesign1.png";
+import two from "../../assets/uidesign2.png";
+import three from "../../assets/uidesign3.png";
+import four from "../../assets/uidesign4.png";
+import five from "../../assets/uidesign5.png";
+import six from "../../assets/uidesign6.png";
+import seven from "../../assets/uidesign7.png";
+import eigth from "../../assets/uidesign8.png";
 
 const uidesign = [
   {
     id: "1",
     image: one,
-
-    title: "1 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
   },
   {
     id: "2",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "2 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: two,
   },
   {
     id: "3",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "3 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: three,
   },
   {
     id: "4",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "4 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: four,
   },
   {
     id: "5",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "5 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: five,
   },
   {
     id: "6",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "6 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: six,
   },
   {
     id: "7",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "7 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: seven,
   },
   {
     id: "8",
-    image:
-      "https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg",
-
-    title: "8 UIDesign",
-    description:
-      "Team project created with frontend and backend, using React js and MySQL. Users can login and create, delete posts and edit account information.",
-    link: "link",
+    image: eigth,
   },
 ];
 
