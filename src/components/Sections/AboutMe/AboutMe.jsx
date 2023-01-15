@@ -5,6 +5,7 @@ import memojihi from "../../../assets/memoji-love.png";
 import { useState } from "react";
 // Components
 import tech from "../../Data/Tech";
+import skills from "../../Data/Skills";
 //////////////////////////////////////////////////////////////
 
 const AboutMe = () => {
@@ -132,6 +133,19 @@ const AboutMe = () => {
                 />
                 <h2>Skills</h2>
               </div>
+              {openSkills && (
+                <div className="aboutme-skillstags">
+                  <div className="aboutme-skillstags-list">
+                    {skills.map((data) => {
+                      return (
+                        <div key={data.id}>
+                          <p>{data.title}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 

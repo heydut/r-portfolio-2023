@@ -141,6 +141,18 @@
               }
             }
           }
+          .aboutme-skillstags {
+            .aboutme-skillstags-list {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              gap: 20px;
+
+              p {
+                font-weight: 700;
+              }
+            }
+          }
         }
       }
 
