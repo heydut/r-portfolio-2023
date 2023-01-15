@@ -14,10 +14,18 @@ const Contact = () => {
         </div>
         <div className="categories-body">
           <div className="categories-body-left">
-            <i class="fa-brands fa-github" />
-            <i class="fa-brands fa-linkedin-in" />
-            <i class="fa-solid fa-envelope" />
-            <i class="fa-brands fa-whatsapp" />
+            <a>
+              <i class="fa-brands fa-github" />
+            </a>
+            <a>
+              <i class="fa-brands fa-linkedin-in" />
+            </a>
+            <a>
+              <i class="fa-solid fa-envelope" />
+            </a>
+            <a>
+              <i class="fa-brands fa-whatsapp" />
+            </a>
             <img src={memoji} alt="memoji" />
           </div>
           <form

@@ -159,16 +159,17 @@ const AboutMe = () => {
           <div className="aboutme-leftside">
             <img src={memojihi} alt="memoji" className="memojihi" />
             <p>
-              &nbsp;&nbsp;As a junior front-end web developer with a background
-              in graphic design and UI/UX, I bring a unique combination of
-              technical skills and creative design to every project. <br />
-              <br /> &nbsp;&nbsp;And I love researching design trends,
-              inspiration for future projects and lots of ideas to keep
-              improving my skills. <br />
+              &nbsp;&nbsp;I am a junior front-end web developer who has a
+              passion for UI/UX and Graphic Design, I have recently completed
+              the Master Software Bootcamp and would love to work on your
+              front-end projects. <br />
+              <br /> &nbsp;&nbsp;I enjoy researching the new design trends and
+              gaining idea's and inspiration for any future projects that I may
+              be part of. <br />
               <br />
               &nbsp;&nbsp;I am now looking for an opportunity where I can
-              continue to learn, grow and demonstrate the value I can bring to
-              your organization.
+              continue to learn, grow and demonstrate the value that I can bring
+              to your company.
             </p>
           </div>
         </div>

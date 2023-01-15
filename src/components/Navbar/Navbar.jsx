@@ -56,7 +56,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <a
-                  href="../../../public/assets/Professional CV Resume - Mayranne Nascimento.pdf"
+                  href="/assets/Professional CV Resume - Mayranne Nascimento.pdf"
                   download
                 >
                   Download CV
