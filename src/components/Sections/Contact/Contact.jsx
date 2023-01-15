@@ -33,47 +33,22 @@ const Contact = () => {
             </a>
             <img src={memoji} alt="memoji" />
           </div>
-          <NetlifyForm name="contact" honeypotName="bot-field">
-            {({ handleChange, success, error }) => (
-              <div className="categories-body-right">
-                <Honeypot />
-                {success && <p>Thanks for contacting us!</p>}
-                {error && (
-                  <p>
-                    Sorry, we could not reach our servers. Please try again
-                    later.
-                  </p>
-                )}
-
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Your name"
-                    name="name"
-                    onChange={handleChange}
-                  ></input>
-                  <input
-                    type="text"
-                    placeholder="Your email"
-                    name="email"
-                    onChange={handleChange}
-                  ></input>
-                </div>
-                <textarea
-                  name="message"
-                  type="text"
-                  placeholder="Write your message here..."
-                  className="categories-body-message"
-                  onChange={handleChange}
-                ></textarea>
-                <button type="submit" value="Submit">
-                  Submit
-                </button>
-              </div>
-            )}
-
-            {/* ************ */}
-          </NetlifyForm>
+          <form name="contact" method="POST" className="categories-body-right">
+            <div>
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="text" placeholder="Your name" name="name"></input>
+              <input type="email" placeholder="Your email" name="email"></input>
+            </div>
+            <textarea
+              name="message"
+              type="text"
+              placeholder="Write your message here..."
+              className="categories-body-message"
+            ></textarea>
+            <button type="submit" value="Submit">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>
