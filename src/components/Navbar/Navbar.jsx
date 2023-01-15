@@ -41,9 +41,15 @@ const Navbar = () => {
             }`}
           >
             <ul>
-              <li>Home</li>
-              <li>Portfolio</li>
-              <li>About</li>
+              <li>
+                <a href="#navbar-section">Home</a>
+              </li>
+              <li>
+                <a href="#frontend-section">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact-section">Let's Talk</a>
+              </li>
             </ul>
           </div>
           <div className="navbar-cv">

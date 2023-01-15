@@ -35,12 +35,14 @@
           font-size: 86px;
           margin-bottom: -15px;
           margin-left: -5px;
+          letter-spacing: -2px;
         }
 
         h2 {
           font-size: 40px;
           margin-top: 10px;
           margin-bottom: 30px;
+          letter-spacing: -2px;
 
           u {
             color: #f75c76;
@@ -148,11 +150,6 @@
         }
       }
       .hero-blobs {
-        .hero-blobs-instagram {
-          img {
-            width: 350px;
-          }
-        }
         .blob-one,
         .blob-two,
         .blob-three {
@@ -202,12 +199,6 @@
       .hero-blobs {
         width: 40%;
 
-        .hero-blobs-instagram {
-          img {
-            width: 300px;
-          }
-        }
-
         .blob-one,
         .blob-two,
         .blob-three {
@@ -256,6 +247,7 @@
         }
         .hero-header-buttons {
           justify-content: center;
+          margin-bottom: 10px;
         }
       }
       .hero-blobs {

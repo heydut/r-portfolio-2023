@@ -30,8 +30,8 @@ const Hero = () => {
                 <p>
                   I'm a graphic designer and I create cool things! I recently
                   finished a three month bootcamp in software development and
-                  now I'm looking for an opportunity be a junior frontend
-                  developer.
+                  now I'm looking for an opportunity to start my career as a
+                  junior front-end developer.
                 </p>
               </div>
             </div>

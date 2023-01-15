@@ -1,56 +1,39 @@
-import AboutMe from "../Sections/AboutMe/AboutMe";
+import one from "../../assets/Categories1.png";
+import two from "../../assets/Categories2.png";
+import three from "../../assets/Categories3.png";
+import four from "../../assets/Categories4.png";
 
 const categories = [
   {
     id: 1,
     section: "aboutme",
-    image: (
-      <img
-        src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
-        alt="tech"
-      />
-    ),
-    title: " 1 About Me",
-    description: "Hi lorem lorena! Hi lorem lorena!",
+    image: <img src={`${one}`} alt="tech" />,
+    title: " About Me",
+    description: "A little more about me.",
     color: "#101010",
   },
   {
     id: 2,
     section: "frontend",
-    image: (
-      <img
-        src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
-        alt="tech"
-      />
-    ),
-    title: "2 Frontend Projects",
-    description: "Hi lorem lorena! Hi lorem lorena!",
+    image: <img src={`${two}`} alt="tech" />,
+    title: "Frontend Projects",
+    description: "Some of my frontend projects.",
     color: "#101010",
   },
   {
     id: 3,
     section: "uidesign",
-    image: (
-      <img
-        src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
-        alt="tech"
-      />
-    ),
-    title: "3 UI Design",
-    description: "Hi lorem lorena! Hi lorem lorena!",
+    image: <img src={`${three}`} alt="tech" />,
+    title: "UI Design",
+    description: "Selection of my designs made in Figma.",
     color: "#101010",
   },
   {
     id: 4,
     section: "contact",
-    image: (
-      <img
-        src="https://www.enjpg.com/img/2020/summer-aesthetic-wallpaper-iphone-15.jpg"
-        alt="tech"
-      />
-    ),
-    title: "4 Let's talk",
-    description: "Hi lorem lorena! Hi lorem lorena!",
+    image: <img src={`${four}`} alt="tech" />,
+    title: "Let's talk",
+    description: "Information on where to find and contact me.",
     color: "#101010",
   },
 ];

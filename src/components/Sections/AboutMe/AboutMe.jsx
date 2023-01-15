@@ -159,10 +159,9 @@ const AboutMe = () => {
           <div className="aboutme-leftside">
             <img src={memojihi} alt="memoji" className="memojihi" />
             <p>
-              &nbsp;&nbsp;I'm a graphic designer and soon I'll be a junior
-              software developer! I'm currently doing the Bootcamp Master
-              Software on CodeNation and my objective is to work with web design
-              as a front-end developer. <br />
+              &nbsp;&nbsp;As a junior front-end web developer with a background
+              in graphic design and UI/UX, I bring a unique combination of
+              technical skills and creative design to every project. <br />
               <br /> &nbsp;&nbsp;And I love researching design trends,
               inspiration for future projects and lots of ideas to keep
               improving my skills. <br />
